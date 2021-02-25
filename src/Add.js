@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
-import { Input, Card, Tabs, Table, Row, Col } from 'antd';
+import { Input, Card, Tabs,  Row, Col } from 'antd';
 import { AudioOutlined } from '@ant-design/icons';
 
 import data from "./data.json";
@@ -44,47 +44,9 @@ export default Add;
 
 const { Search } = Input;
 
-const suffix = (
-  <AudioOutlined
-    style={{
-      fontSize: 16,
-      color: '#1890ff',
-    }}
-  />
-);
 const onSearch = value => console.log(value);
 
 const { TabPane } = Tabs;
 
 
 
-const columnsB = [
-    {
-      title: 'Breakfast',
-      dataIndex: 'picture',
-      width: 150
-    },
-    {
-      dataIndex: 'item',
-      width: 400
-    },
-    { 
-      title: '/Kcal',
-      dataIndex: 'kcal',
-      
-    },
-  ];
-  const dataB = [
-    {
-      key: '1',
-      picture: 'pic1',
-      item:  'Banana',
-      kcal: 115,
-    },
-    {
-        key: '2',
-        picture: 'pic2',
-        item:  'Oatmeal',
-        kcal: 165,
-      }
-  ];
