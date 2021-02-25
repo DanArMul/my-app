@@ -1,0 +1,55 @@
+{
+    "Foods": [
+        {   
+            "picture": "picture",
+            "item": "burger",
+            "kcal": 800
+        },
+        {
+            "picture": "picture",
+            "item": "pizza",
+            "kcal": 1000
+        },
+        {
+            "picture": "picture",
+            "item": "salad",
+            "kcal": 300
+        },
+        {
+            "picture": "picture",
+            "item": "egg",
+            "kcal": 50
+        },
+        {
+            "picture": "picture",
+            "item": "Banana",
+            "kcal": 115
+        },
+        {
+            "picture": "picture",
+            "item": "Oatmeal",
+            "kcal": 165
+        },
+        {
+            "picture": "picture",
+            "item": "McNuggets",
+            "kcal": 800
+        },
+        {
+            "picture": "picture",
+            "item": "Light Mayonnaise",
+            "kcal": 80
+        },
+        {
+            "picture": "picture",
+            "item": "rice",
+            "kcal": 200
+        },
+        {
+            "picture": "picture",
+            "item": "Yogurt (Nonfat)",
+            "kcal": 48
+        }
+    ]
+}
+
